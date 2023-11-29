@@ -8,7 +8,9 @@ const Home = () => {
       <h2>
         and I work at <a href='https://www.newtonschool.co/'>Newton School</a>
       </h2>
+    <Link href="/blog">
       <button id='home-to-blog'> Go to Blog</button>
+    <Link href="/info">
       <button id='home-to-info'> Go to Info</button>
     </div>
   );
